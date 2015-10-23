@@ -1,0 +1,5 @@
+- aggiunto JobRunnerCommand per eseguire comando esterno, utilizzabile per lanciare un run di job/batch con schedulazione esterna (es crontab)
+- aggiunta integrazione di Swagger 1.2.3
+- aggiunta integrazione di Archaius 0.5.12
+- aggiunta integrazione di Hystrix 1.2.2 con dashboard esterna. Ci sono versioni maggiori ma non funzionano con questo set di librerie e jdk, ne con jBoss 5 EAP usato altrove. Con Tomcat 7 invece si infatti si può deployare una dashboard con versione maggiore (se serve e da vedere se compatibile con stream)
+- aggiunta integrazione di Hystrix 1.2.2 con Yammer Metric. In questo modo si espongono verso Metric le metriche dei comandi Hystrix.
